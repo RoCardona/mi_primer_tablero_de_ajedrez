@@ -1,17 +1,22 @@
 .container{
     display: flex;
+    flex-direction: center;
+    justify-content: center;
 }
 
 .casilla-impar{
     width: 50px;
     height: 50px;
-    background-color: white;
+    background-color: black;
+    font-size: 150%;
+
 }
   
 .casilla-par{
     width: 50px;
     height: 50px;
-    background-color: black;
+    background-color: white;
+    font-size: 150%;
 
 }
 body{
